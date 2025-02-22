@@ -1,0 +1,8 @@
+### Exibir a pagina inicial do servidor
+GET http://localhost:3000/
+Accept: application/json
+
+### Requisição para traduzir texto
+GET http://localhost:3000/traduzir?texto=potato HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
