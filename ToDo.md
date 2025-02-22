@@ -1,0 +1,18 @@
+- [X] Criar o manifest.json
+- [X] Criar a interface de usuário da extensão
+- [X] Criar o css da interface do usuário
+- [X] Melhorar css
+- [x] Adicionar permissões no manifest.json
+- [x] Adicionar funcionalidade de selecionar o texto
+- [x] Adicionar funcionalidade de salvar a palavra/frase 
+- [x] Exibir uma lista de palavras salvas
+- [x] Criar o javascript da interface do usuário
+- [x] Atualizar a funcionalidade de salvar a palavra/frase para salvar junto a tradução
+- [x] Gerar um csv com as palavras salvas com tradução
+- [x] Gerar um csv com as palavras salvas sem tradução
+- [x] Adiconar limite para o tamanho da frase (150 caracteres)
+- [x] Adicionar a funcionalidade de limpar todas as palavras
+- [x] Adicionar a funcionalidade de salvar palavras pelo popup
+- [ ] Adicionar funcionalidade de ver uma tradução pro texto sobre o texto
+- [ ] Adicionar a paginação
+- [ ] Adicionar suporte a multiplos idiomas
