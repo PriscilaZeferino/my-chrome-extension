@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClipVocabulary</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>ClipVocabulary</h1>
+            <div class="addVocabulary">
+                <textarea name="vocabularyInput" id="vocabularyInput" placeholder="Digite o vocabulário aqui..."
+                    maxlength="200px"></textarea>
+                    <p id="warning">Limite de 150 caracteres. Frases maiores podem ser difíceis de lembrar.</p>
+                <button id="btnAddVocabulary">Adicionar vocabulário</button>
+            </div>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <th>Vocabulário</th>
+                    <th>Tradução</th>
+                </thead>
+                <tbody id="vocabularyTableBody">
+                </tbody>
+            </table>
+        </div>
+        <div class="buttonBottom">
+            <button id="downloadCSV">Gerar csv</button>
+            <button id="clearAll">Limpar tudo</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+    <script src="auxiliares.js"></script>
+</body>
+
+</html>

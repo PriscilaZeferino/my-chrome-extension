@@ -15,7 +15,8 @@
     ],
     "host_permissions": [
         "http://*/*",
-        "https://*/*"
+        "https://*/*",
+        "http://localhost:3000/traduzir"
     ],
     "background": {
         "service_worker": "background.js",

@@ -1,0 +1,117 @@
+/* Importando a fonte Inter do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+    --background: #f1f1f1;
+    --primary-color: #1e3a8a;
+    --secondary-color: #070947;
+    --font-color: #f6f6f6;
+    --white-soft: #f6f6f6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    width: 300px;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.addVocabulary,
+.buttonBottom {
+    padding-top: 8px;
+    width: 260px;
+}
+
+#vocabularyInput,
+#btnAddVocabulary {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#vocabularyInput {
+    min-height: 25px;
+    resize: none;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 10px;
+    line-height: 1;
+}
+
+#vocabularyInput::placeholder {
+    text-align: center;
+}
+
+#btnAddVocabulary,
+#downloadCSV,
+#clearAll {
+    background-color: var(--primary-color);
+    color: var(--white-soft);
+    margin-top: 8px;
+    padding: 8px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.buttonBottom {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#downloadCSV,
+#clearAll {
+    width: 120px;
+}
+
+
+table {
+    width: 260px;
+    margin: 8px;
+    text-align: left;
+}
+
+th {
+    border-bottom: 5px solid var(--primary-color);
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+#warning {
+    background-color: #f8d7da;
+    text-align: center;
+    width: 260px;
+    padding: 8px 0 8px 0;
+    margin-top: 8px;
+    display: none;
+}
+
