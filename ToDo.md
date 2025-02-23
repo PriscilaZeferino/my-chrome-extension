@@ -16,3 +16,6 @@
 - [ ] Adicionar funcionalidade de ver uma tradução pro texto sobre o texto
 - [ ] Adicionar a paginação
 - [ ] Adicionar suporte a multiplos idiomas
+- [ ] Adicionar um botao para desativar a traducao automatica
+- [ ] Adicionar loading enquanto os dados nao sao salvos
+- [ ] Atualizar a tela assim que os dados sao salvos - problema gerado pela traducao. checar.
